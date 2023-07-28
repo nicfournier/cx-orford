@@ -11,7 +11,7 @@ export default defineAppConfig({
     },
 
     header: {
-      position: 'right', // possible value are : | 'left' | 'center' | 'right'
+      position: 'left', // possible value are : | 'left' | 'center' | 'right'
       logo: {
         path: '/cx-orford-header.png', // path of the logo
         pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
@@ -29,7 +29,7 @@ export default defineAppConfig({
 
         text: 'CX Orford'
       },
-      navigation: true, // possible value are : true | false
+      navigation: false, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
       message: 'Suivez nous' // string that will be displayed in the footer (leave empty or delete to disable)
     },
@@ -48,7 +48,7 @@ export default defineAppConfig({
     },
 
     form: {
-      successMessage: 'Message sent. Thank you!'
+      successMessage: 'Message envoyé. Merci!'
     },
 
     backToTop: {
